@@ -9,5 +9,5 @@
 import UIKit
 
 class PhotosBL: NSObject {
-  typealias Peliiculas = (_ array: [PinterestBE]) = -> void
+  typealias Photos = (_ array: [PinterestBE]) -> Void
 }
